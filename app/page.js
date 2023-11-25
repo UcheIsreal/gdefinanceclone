@@ -27,8 +27,8 @@ const Business = (image, name, company, description) => {
             </h2>
             <p className="text-white mb-8 font-sans text-lg ">
               Join thousands of businesses of all sizes - using <br />{" "}
-              Gladefinance's accounts, payments, and expense <br /> management
-              solutionto manage and scale their <br />
+              Gladefinance&apos;s accounts, payments, and expense <br />{" "}
+              management solutionto manage and scale their <br />
               businesses
             </p>
             <div className="mb-10">
@@ -41,18 +41,25 @@ const Business = (image, name, company, description) => {
             </div>
           </div>
           <div className="relative -mr-16  -mt-16">
-            <Image src="/images/gladeheroimage.png" width={750} height={600} />
+            <Image
+              src="/images/gladeheroimage.png"
+              width={750}
+              height={600}
+              alt="gladeheroimage"
+            />
             <Image
               className="absolute -right-8  top-1/4 "
               src="/images/gladephonehero.png"
               width={350}
               height={400}
+              alt="phone hero"
             />
             <Image
               className="absolute top-1/2 "
               src="/images/gladecardimage.svg"
               width={200}
               height={200}
+              alt="card image"
             />
           </div>
         </div>
@@ -65,8 +72,8 @@ const Business = (image, name, company, description) => {
             </h2>
             <p className="text-white mb-8 font-sans mt-4 text-base ">
               Join thousands of businesses of all sizes - using <br />{" "}
-              Gladefinance's accounts, payments, and expense <br /> management
-              solutionto manage and scale their <br />
+              Gladefinance&apos;s accounts, payments, and expense <br />{" "}
+              management solutionto manage and scale their <br />
               businesses
             </p>
             <div className="mb-20 flex flex-col items-center gap-4 ">
@@ -79,18 +86,25 @@ const Business = (image, name, company, description) => {
             </div>
           </div>
           <div className="relative ">
-            <Image src="/images/gladeheroimage.png" width={400} height={400} />
+            <Image
+              src="/images/gladeheroimage.png"
+              width={400}
+              height={400}
+              alt="glade image hero"
+            />
             <Image
               className="absolute -right-8  top-1/4 "
               src="/images/gladephonehero.png"
               width={200}
               height={200}
+              alt="gladephone hero"
             />
             <Image
               className="absolute top-1/2 "
               src="/images/gladecardimage.svg"
               width={200}
               height={200}
+              alt="gladecardimage2"
             />
           </div>
         </div>
@@ -112,6 +126,7 @@ const Business = (image, name, company, description) => {
               src="/images/account_selection.svg"
               width={500}
               height={500}
+              alt="account selection"
             />
           </div>
         </div>
@@ -131,6 +146,7 @@ const Business = (image, name, company, description) => {
               src="/images/account_selection.svg"
               width={500}
               height={500}
+              alt="account selectionn"
             />
           </div>
         </div>
@@ -138,7 +154,12 @@ const Business = (image, name, company, description) => {
         {/* Transfer and FX  */}
         <div className="bg-white mt-20 mb-10 md:flex hidden items-center justify-between w-[80vw] rounded-3xl py-20 px-20 mx-32">
           <div>
-            <Image src="/images/send.svg" width={500} height={500} />
+            <Image
+              src="/images/send.svg"
+              width={500}
+              height={500}
+              alt="send image"
+            />
           </div>
           <div className="text-black col-span-2 ">
             <h2 className="text-4xl">Transfers and FX</h2>
@@ -163,7 +184,12 @@ const Business = (image, name, company, description) => {
             <p className="mt-8 text-center mb-20">Get Started</p>
           </div>
           <div className="mx-10">
-            <Image src="/images/send.svg" width={300} height={300} />
+            <Image
+              src="/images/send.svg"
+              width={300}
+              height={300}
+              alt="senddd"
+            />
           </div>
         </div>
         {/* End of transfer and FX  */}
@@ -188,6 +214,7 @@ const Business = (image, name, company, description) => {
               src="/images/glade-card (1)2.svg"
               width={300}
               height={300}
+              alt="glade-card"
             />
           </div>
         </div>
@@ -211,6 +238,7 @@ const Business = (image, name, company, description) => {
               src="/images/glade-card (1)2.svg"
               width={300}
               height={100}
+              alt="gladeeee"
             />
           </div>
         </div>
@@ -218,7 +246,12 @@ const Business = (image, name, company, description) => {
         {/* Affordable Accessible Capital  */}
         <div className="md:grid hidden grid-cols-2 gap-4 mt-16 bg-[#2C6DEA] justify-between w-[80vw] rounded-3xl py-20 px-20 mx-32">
           <div className="mt-10">
-            <Image src="/images/loan_officers.svg" width={400} height={400} />
+            <Image
+              src="/images/loan_officers.svg"
+              width={400}
+              height={400}
+              alt="loan officers"
+            />
           </div>
           <div>
             <h2 className="text-white text-4xl font-bold font-serif">
@@ -261,7 +294,12 @@ const Business = (image, name, company, description) => {
             </p>
           </div>
           <div className="mt-10 mx-auto rounded-3xl">
-            <Image src="/images/loan_officers.svg" width={300} height={400} />
+            <Image
+              src="/images/loan_officers.svg"
+              width={300}
+              height={400}
+              alt="loan officers2"
+            />
           </div>
         </div>
         {/*  End of Affordable Accessible Capital  */}
@@ -284,6 +322,7 @@ const Business = (image, name, company, description) => {
               src="/images/expense_management-new.svg"
               width={800}
               height={800}
+              alt="expense manage"
             />
           </div>
         </div>
@@ -305,6 +344,7 @@ const Business = (image, name, company, description) => {
               src="/images/expense_management-new.svg"
               width={800}
               height={800}
+              alt="expense management"
             />
           </div>
         </div>
@@ -329,6 +369,7 @@ const Business = (image, name, company, description) => {
               src="/images/posScreen.svg"
               width={300}
               height={300}
+              alt="pos"
             />
           </div>
         </div>
@@ -351,6 +392,7 @@ const Business = (image, name, company, description) => {
               src="/images/posScreen.svg"
               width={300}
               height={300}
+              alt="pos screen"
             />
           </div>
         </div>
@@ -358,7 +400,12 @@ const Business = (image, name, company, description) => {
         {/* Improve your cash flow  */}
         <div className="md:grid hidden  grid-cols-2 gap-4 mt-4 bg-[#2C6DEA] justify-between w-[80vw] rounded-3xl py-10 pb-2 px-20 mx-32">
           <div className="">
-            <Image src="/images/invoice.svg" width={400} height={300} />
+            <Image
+              src="/images/invoice.svg"
+              width={400}
+              height={300}
+              alt="invoice"
+            />
           </div>
           <div className="mt-8">
             <h2 className="text-white  text-[45px] leading-[45px] font-bold font-serif">
@@ -397,7 +444,12 @@ const Business = (image, name, company, description) => {
             </p>
           </div>
           <div className="px-10">
-            <Image src="/images/invoice.svg" width={400} height={300} />
+            <Image
+              src="/images/invoice.svg"
+              width={400}
+              height={300}
+              alt="invoice svg"
+            />
           </div>
         </div>
         {/* End of Improve your cash flow  */}
@@ -406,7 +458,9 @@ const Business = (image, name, company, description) => {
 
         <div className="bg-[#FF6F00] mt-16 mb-4 md:flex hidden items-center justify-between w-[80vw] rounded-3xl py-4 px-10 mx-32">
           <div className="text-white col-span-2 ">
-            <h2 className="text-5xl font-serif">Payroll that's easy to use</h2>
+            <h2 className="text-5xl font-serif">
+              Payroll that&apos;s easy to use
+            </h2>
             <p className="mt-4 text-lg font-extralight  ">
               The simplest way to pay your people. Give your <br /> employees
               early access to their earned salary with Gladefinance Payroll
@@ -417,14 +471,19 @@ const Business = (image, name, company, description) => {
           </div>
 
           <div className="">
-            <Image src="/images/payroll_team.svg" width={800} height={800} />
+            <Image
+              src="/images/payroll_team.svg"
+              width={800}
+              height={800}
+              alt="payroll"
+            />
           </div>
         </div>
 
         <div className="bg-[#FF6F00] mt-16 mb-4 flex flex-col md:hidden mx-6 items-center justify-between  rounded-3xl">
           <div className="text-white col-span-2 mt-4">
             <h2 className="text-4xl text-center leading-10 font-semibold font-serif">
-              Payroll that's <br /> easy to use
+              Payroll that&apos;s <br /> easy to use
             </h2>
             <p className="mt-4 text-sm text-center leading-6 font-extralight  ">
               The simplest way to pay your people. <br /> Give your employees
@@ -436,7 +495,12 @@ const Business = (image, name, company, description) => {
           </div>
 
           <div className="px-6 ">
-            <Image src="/images/payroll_team.svg" width={400} height={400} />
+            <Image
+              src="/images/payroll_team.svg"
+              width={400}
+              height={400}
+              alt="payroll team"
+            />
           </div>
         </div>
 
@@ -446,7 +510,12 @@ const Business = (image, name, company, description) => {
 
         <div className="md:grid hidden grid-cols-2 gap-4 mt-20 bg-white  justify-between w-[80vw] rounded-3xl py-16  px-20 mx-32">
           <div className="mt-12">
-            <Image src="/images/checkout_6.png" width={400} height={300} />
+            <Image
+              src="/images/checkout_6.png"
+              width={400}
+              height={300}
+              alt="checkout"
+            />
           </div>
           <div className="">
             <h2 className="text-black   text-[45px] leading-[45px] font-bold font-serif">
@@ -487,7 +556,12 @@ const Business = (image, name, company, description) => {
             </p>
           </div>
           <div className="mt-12 px-10">
-            <Image src="/images/checkout_6.png" width={300} height={300} />
+            <Image
+              src="/images/checkout_6.png"
+              width={300}
+              height={300}
+              alt="checkouttt"
+            />
           </div>
         </div>
 
@@ -495,7 +569,9 @@ const Business = (image, name, company, description) => {
 
         <div className="flex flex-col mt-48">
           <div className="flex flex-col text-white items-center justify-center">
-            <h2 className="md:text-6xl text-3xl text-center px-6 md:px-0  font-serif">Don’t take our word for it</h2>
+            <h2 className="md:text-6xl text-3xl text-center px-6 md:px-0  font-serif">
+              Don&apos;t take our word for it
+            </h2>
             <p className="md:text-2xl text-xs px-8 md:px-0 text-center font-serif">
               Read what other business owners say about our product
             </p>
@@ -504,7 +580,12 @@ const Business = (image, name, company, description) => {
           <div className="md:flex hidden max-w-[40vw] mx-auto items-center justify-center gap-6">
             <Testimonials
               image={
-                <Image src="/images/testimonial-1.svg" width={70} height={70} />
+                <Image
+                  src="/images/testimonial-1.svg"
+                  width={70}
+                  height={70}
+                  alt="testimonial one"
+                />
               }
               name={"Abel Adugam Nibori Ogbonna"}
               company={"Versuspay"}
@@ -514,7 +595,12 @@ const Business = (image, name, company, description) => {
             />
             <Testimonials
               image={
-                <Image src="/images/testimonial-2.svg" width={70} height={70} />
+                <Image
+                  src="/images/testimonial-2.svg"
+                  width={70}
+                  height={70}
+                  alt="testimonial two"
+                />
               }
               name={"AbdulHameed Yunusa"}
               company={"Digiverz"}
@@ -526,7 +612,12 @@ const Business = (image, name, company, description) => {
           <div className="flex md:hidden  items-center justify-center gap-6">
             <Testimonials
               image={
-                <Image src="/images/testimonial-1.svg" width={70} height={70} />
+                <Image
+                  src="/images/testimonial-1.svg"
+                  width={70}
+                  height={70}
+                  alt="testimonial two"
+                />
               }
               name={"Abel Adugam Nibori Ogbonna"}
               company={"Versuspay"}
@@ -534,7 +625,6 @@ const Business = (image, name, company, description) => {
                 "“When it comes to handling payments, Gladefinance has always been on its feet to ensure the process is seamless, and whenever we encounter minor issues, the support team is swift in resolving them. Speed and seamless experience are what we love about Gladefinance.”"
               }
             />
-            
           </div>
         </div>
         <div className="mt-44 flex flex-col items-center justify-center  ">

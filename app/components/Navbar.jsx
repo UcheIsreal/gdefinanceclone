@@ -23,7 +23,7 @@ const Navbar = () => {
     <>
       <nav className="flex bg-black items-center justify-around max-w-screen mx-auto h-[10vh]">
         <div className=" ">
-          <Image src="/images/gladesvg.png" width={300} height={300} />
+          <Image src="/images/gladesvg.png" width={300} height={300} alt='gladelogo1' />
         </div>
 
         <div className="ml-32 hidden lg:flex mt-2">
@@ -69,7 +69,7 @@ const Navbar = () => {
           }
         >
           <div className="bg-black h-[10vh] flex items-center ">
-            <Image src="/images/gladesvg.png" width={200} height={200} />
+            <Image src="/images/gladesvg.png" width={200} height={200} alt='gladelogo2' />
           </div>
           <ul className="  p-4">
             <li className="p-4 font-extrabold">Incoporation</li>

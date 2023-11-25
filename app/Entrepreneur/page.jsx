@@ -40,6 +40,7 @@ const Entrepreneur = (image, name, company, description) => {
               src="/images/personal-account-section1.png"
               width={700}
               height={700}
+              alt="personal account"
             />
           </div>
         </div>
@@ -66,6 +67,7 @@ const Entrepreneur = (image, name, company, description) => {
               src="/images/personal-account-section1.png"
               width={400}
               height={400}
+              alt="personal section1"
             />
           </div>
         </div>
@@ -92,6 +94,7 @@ const Entrepreneur = (image, name, company, description) => {
               src="/images/personal-account-section3.svg"
               width={400}
               height={400}
+              alt="personal section3"
             />
           </div>
         </div>
@@ -115,7 +118,7 @@ const Entrepreneur = (image, name, company, description) => {
 
         <div className="bg-[#292929] flex items-center justify-between w-[80vw] mx-auto rounded-3xl px-24 py-20 mt-20 text-white">
           <div className="w-[25vw]">
-            <Image src="/images/virtual__card.svg" width={400} height={400} />
+            <Image src="/images/virtual__card.svg" width={400} height={400} alt="virtual card" />
           </div>
           <div>
             <h2 className="text-6xl font-serif ">Get a virtual card</h2>
@@ -141,13 +144,14 @@ const Entrepreneur = (image, name, company, description) => {
               src="/images/pay_bills_quickly.svg"
               width={400}
               height={400}
+              alt="pay bills"
             />
           </div>
         </div>
 
         <div className="bg-[#2C6DEA] flex items-center justify-between w-[80vw] mx-auto rounded-3xl px-24 py-20 mt-20 text-white">
           <div className="mt-16">
-            <Image src="/images/budget-limit.svg" width={350} height={350} />
+            <Image src="/images/budget-limit.svg" width={350} height={350} alt="budget limit" />
           </div>
           <div className="">
             <h2 className="text-5xl font-serif ">
@@ -171,7 +175,7 @@ const Entrepreneur = (image, name, company, description) => {
             </p>
           </div>
           <div className="mt-16">
-            <Image src="/images/build_wealth.svg" width={350} height={350} />
+            <Image src="/images/build_wealth.svg" width={350} height={350} alt="build wealth" />
           </div>
         </div>
 
@@ -181,6 +185,7 @@ const Entrepreneur = (image, name, company, description) => {
               src="/images/discount_request.svg"
               width={400}
               height={400}
+              alt="discount request"
             />
           </div>
           <div className="">
@@ -207,7 +212,7 @@ const Entrepreneur = (image, name, company, description) => {
         <div className="flex max-w-[40vw] mx-auto items-center justify-center gap-6 pb-32">
           <Testimonials
             image={
-              <Image src="/images/testimonial-1.svg" width={70} height={70} />
+              <Image src="/images/testimonial-1.svg" width={70} height={70} alt="testimonial" />
             }
             name={"Abel Adugam Nibori Ogbonna"}
             company={"Versuspay"}
@@ -217,7 +222,7 @@ const Entrepreneur = (image, name, company, description) => {
           />
           <Testimonials
             image={
-              <Image src="/images/testimonial-2.svg" width={70} height={70} />
+              <Image src="/images/testimonial-2.svg" width={70} height={70} alt="testimonials2" />
             }
             name={"AbdulHameed Yunusa"}
             company={"Digiverz"}
