@@ -19,8 +19,8 @@ const WhiteNavbar = () => {
     <>
       <nav className="flex bg-[#EEF4FF] items-center justify-around max-w-screen mx-auto h-[10vh]">
         <div className=" ">
-          <Image src="/images/gladelogoblue.png" width={300} height={300} alt="gladelogoblue" />
-        </div>
+          <Image src="/images/gladelogoblue.png" width={300} height={300} alt="" />
+        </div> 
 
         <div className="ml-32 hidden lg:flex mt-2">
           <Link href="/">
@@ -65,7 +65,7 @@ const WhiteNavbar = () => {
           }
         >
           <div className="bg-black h-[10vh] flex items-center ">
-            <Image src="/images/gladesvg.png" width={200} height={200} alt="gladesvg" />
+            <Image src="/images/gladesvg.png" width={200} height={200} alt="" />
           </div>
           <ul className="  p-4">
             <li className="p-4 font-extrabold">Incoporation</li>

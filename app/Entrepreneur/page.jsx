@@ -40,7 +40,7 @@ const Entrepreneur = (image, name, company, description) => {
               src="/images/personal-account-section1.png"
               width={700}
               height={700}
-              alt="personal account"
+              alt=""
             />
           </div>
         </div>
@@ -56,18 +56,18 @@ const Entrepreneur = (image, name, company, description) => {
               place.
             </p>
           </div>
-            <div className="flex items-center justify-center mb-6 ">
-              <button className="bg-[#2C6DEA]  text-white px-10 py-3 mt-20 rounded-lg">
-                Get Started
-              </button>
-            </div>
+          <div className="flex items-center justify-center mb-6 ">
+            <button className="bg-[#2C6DEA]  text-white px-10 py-3 mt-20 rounded-lg">
+              Get Started
+            </button>
+          </div>
 
           <div className="mx-10">
             <Image
               src="/images/personal-account-section1.png"
               width={400}
               height={400}
-              alt="personal section1"
+              alt=""
             />
           </div>
         </div>
@@ -94,7 +94,7 @@ const Entrepreneur = (image, name, company, description) => {
               src="/images/personal-account-section3.svg"
               width={400}
               height={400}
-              alt="personal section3"
+              alt=""
             />
           </div>
         </div>
@@ -104,6 +104,7 @@ const Entrepreneur = (image, name, company, description) => {
               src="/images/personal-account-section3.svg"
               width={400}
               height={400}
+              alt=""
             />
           </div>
           <div>
@@ -118,7 +119,12 @@ const Entrepreneur = (image, name, company, description) => {
 
         <div className="bg-[#292929] flex items-center justify-between w-[80vw] mx-auto rounded-3xl px-24 py-20 mt-20 text-white">
           <div className="w-[25vw]">
-            <Image src="/images/virtual__card.svg" width={400} height={400} alt="virtual card" />
+            <Image
+              src="/images/virtual__card.svg"
+              width={400}
+              height={400}
+              alt=""
+            />
           </div>
           <div>
             <h2 className="text-6xl font-serif ">Get a virtual card</h2>
@@ -144,14 +150,19 @@ const Entrepreneur = (image, name, company, description) => {
               src="/images/pay_bills_quickly.svg"
               width={400}
               height={400}
-              alt="pay bills"
+              alt=""
             />
           </div>
         </div>
 
         <div className="bg-[#2C6DEA] flex items-center justify-between w-[80vw] mx-auto rounded-3xl px-24 py-20 mt-20 text-white">
           <div className="mt-16">
-            <Image src="/images/budget-limit.svg" width={350} height={350} alt="budget limit" />
+            <Image
+              src="/images/budget-limit.svg"
+              width={350}
+              height={350}
+              alt=""
+            />
           </div>
           <div className="">
             <h2 className="text-5xl font-serif ">
@@ -175,7 +186,12 @@ const Entrepreneur = (image, name, company, description) => {
             </p>
           </div>
           <div className="mt-16">
-            <Image src="/images/build_wealth.svg" width={350} height={350} alt="build wealth" />
+            <Image
+              src="/images/build_wealth.svg"
+              width={350}
+              height={350}
+              alt=""
+            />
           </div>
         </div>
 
@@ -185,7 +201,7 @@ const Entrepreneur = (image, name, company, description) => {
               src="/images/discount_request.svg"
               width={400}
               height={400}
-              alt="discount request"
+              alt=""
             />
           </div>
           <div className="">
@@ -202,7 +218,7 @@ const Entrepreneur = (image, name, company, description) => {
 
         <div className="flex flex-col items-center justify-center mt-44">
           <h2 className="text-6xl tracking-tight font-serif">
-            Don’t take our word for it
+            Don&apos;t take our word for it
           </h2>
           <p className="font-sans mt-3">
             Read what other business owners say about our product
@@ -212,7 +228,12 @@ const Entrepreneur = (image, name, company, description) => {
         <div className="flex max-w-[40vw] mx-auto items-center justify-center gap-6 pb-32">
           <Testimonials
             image={
-              <Image src="/images/testimonial-1.svg" width={70} height={70} alt="testimonial" />
+              <Image
+                src="/images/testimonial-1.svg"
+                width={70}
+                height={70}
+                alt=""
+              />
             }
             name={"Abel Adugam Nibori Ogbonna"}
             company={"Versuspay"}
@@ -222,7 +243,12 @@ const Entrepreneur = (image, name, company, description) => {
           />
           <Testimonials
             image={
-              <Image src="/images/testimonial-2.svg" width={70} height={70} alt="testimonials2" />
+              <Image
+                src="/images/testimonial-2.svg"
+                width={70}
+                height={70}
+                alt=""
+              />
             }
             name={"AbdulHameed Yunusa"}
             company={"Digiverz"}

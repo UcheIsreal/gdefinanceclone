@@ -45,21 +45,21 @@ const Business = (image, name, company, description) => {
               src="/images/gladeheroimage.png"
               width={750}
               height={600}
-              alt="gladeheroimage"
+              alt=""
             />
             <Image
               className="absolute -right-8  top-1/4 "
               src="/images/gladephonehero.png"
               width={350}
               height={400}
-              alt="phone hero"
+              alt=""
             />
             <Image
               className="absolute top-1/2 "
               src="/images/gladecardimage.svg"
               width={200}
               height={200}
-              alt="card image"
+              alt=""
             />
           </div>
         </div>
@@ -90,21 +90,21 @@ const Business = (image, name, company, description) => {
               src="/images/gladeheroimage.png"
               width={400}
               height={400}
-              alt="glade image hero"
+              alt=""
             />
             <Image
               className="absolute -right-8  top-1/4 "
               src="/images/gladephonehero.png"
               width={200}
               height={200}
-              alt="gladephone hero"
+              alt=""
             />
             <Image
               className="absolute top-1/2 "
               src="/images/gladecardimage.svg"
               width={200}
               height={200}
-              alt="gladecardimage2"
+              alt=""
             />
           </div>
         </div>
@@ -126,7 +126,7 @@ const Business = (image, name, company, description) => {
               src="/images/account_selection.svg"
               width={500}
               height={500}
-              alt="account selection"
+              alt=""
             />
           </div>
         </div>
@@ -146,7 +146,7 @@ const Business = (image, name, company, description) => {
               src="/images/account_selection.svg"
               width={500}
               height={500}
-              alt="account selectionn"
+              alt=""
             />
           </div>
         </div>
@@ -158,7 +158,7 @@ const Business = (image, name, company, description) => {
               src="/images/send.svg"
               width={500}
               height={500}
-              alt="send image"
+              alt=""
             />
           </div>
           <div className="text-black col-span-2 ">
@@ -188,7 +188,7 @@ const Business = (image, name, company, description) => {
               src="/images/send.svg"
               width={300}
               height={300}
-              alt="senddd"
+              alt=""
             />
           </div>
         </div>
@@ -214,7 +214,7 @@ const Business = (image, name, company, description) => {
               src="/images/glade-card (1)2.svg"
               width={300}
               height={300}
-              alt="glade-card"
+              alt=""
             />
           </div>
         </div>
@@ -238,7 +238,7 @@ const Business = (image, name, company, description) => {
               src="/images/glade-card (1)2.svg"
               width={300}
               height={100}
-              alt="gladeeee"
+              alt=""
             />
           </div>
         </div>
@@ -250,7 +250,7 @@ const Business = (image, name, company, description) => {
               src="/images/loan_officers.svg"
               width={400}
               height={400}
-              alt="loan officers"
+              alt=""
             />
           </div>
           <div>
@@ -298,7 +298,7 @@ const Business = (image, name, company, description) => {
               src="/images/loan_officers.svg"
               width={300}
               height={400}
-              alt="loan officers2"
+              alt=""
             />
           </div>
         </div>
@@ -322,7 +322,7 @@ const Business = (image, name, company, description) => {
               src="/images/expense_management-new.svg"
               width={800}
               height={800}
-              alt="expense manage"
+              alt=""
             />
           </div>
         </div>
@@ -344,7 +344,7 @@ const Business = (image, name, company, description) => {
               src="/images/expense_management-new.svg"
               width={800}
               height={800}
-              alt="expense management"
+              alt=""
             />
           </div>
         </div>
@@ -369,7 +369,7 @@ const Business = (image, name, company, description) => {
               src="/images/posScreen.svg"
               width={300}
               height={300}
-              alt="pos"
+              alt=""
             />
           </div>
         </div>
@@ -392,7 +392,7 @@ const Business = (image, name, company, description) => {
               src="/images/posScreen.svg"
               width={300}
               height={300}
-              alt="pos screen"
+              alt=""
             />
           </div>
         </div>
@@ -404,7 +404,7 @@ const Business = (image, name, company, description) => {
               src="/images/invoice.svg"
               width={400}
               height={300}
-              alt="invoice"
+              alt=""
             />
           </div>
           <div className="mt-8">
@@ -448,7 +448,7 @@ const Business = (image, name, company, description) => {
               src="/images/invoice.svg"
               width={400}
               height={300}
-              alt="invoice svg"
+              alt=""
             />
           </div>
         </div>
@@ -475,7 +475,7 @@ const Business = (image, name, company, description) => {
               src="/images/payroll_team.svg"
               width={800}
               height={800}
-              alt="payroll"
+              alt=""
             />
           </div>
         </div>
@@ -499,7 +499,7 @@ const Business = (image, name, company, description) => {
               src="/images/payroll_team.svg"
               width={400}
               height={400}
-              alt="payroll team"
+              alt=""
             />
           </div>
         </div>
@@ -514,7 +514,7 @@ const Business = (image, name, company, description) => {
               src="/images/checkout_6.png"
               width={400}
               height={300}
-              alt="checkout"
+              alt=""
             />
           </div>
           <div className="">
@@ -560,7 +560,7 @@ const Business = (image, name, company, description) => {
               src="/images/checkout_6.png"
               width={300}
               height={300}
-              alt="checkouttt"
+              alt=""
             />
           </div>
         </div>
@@ -584,7 +584,7 @@ const Business = (image, name, company, description) => {
                   src="/images/testimonial-1.svg"
                   width={70}
                   height={70}
-                  alt="testimonial one"
+                  alt=""
                 />
               }
               name={"Abel Adugam Nibori Ogbonna"}
@@ -599,7 +599,7 @@ const Business = (image, name, company, description) => {
                   src="/images/testimonial-2.svg"
                   width={70}
                   height={70}
-                  alt="testimonial two"
+                  alt=""
                 />
               }
               name={"AbdulHameed Yunusa"}
@@ -616,7 +616,7 @@ const Business = (image, name, company, description) => {
                   src="/images/testimonial-1.svg"
                   width={70}
                   height={70}
-                  alt="testimonial two"
+                  alt=""
                 />
               }
               name={"Abel Adugam Nibori Ogbonna"}
