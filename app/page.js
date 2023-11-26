@@ -57,6 +57,7 @@ const Business = (image, name, company, description) => {
               height={400}
               alt=""
             />
+          
             <Image
               className="absolute top-1/2 "
               src="/images/gladecardimage.svg"
@@ -96,7 +97,7 @@ const Business = (image, name, company, description) => {
               alt=""
             />
             <Image
-              className="absolute -right-8  top-1/4 "
+              className="absolute top-1/4 "
               src="/images/gladephonehero.png"
               width={200}
               height={200}
