@@ -3,6 +3,7 @@ import React from "react";
 import WhiteNavbar from "../components/WhiteNavbar";
 import Image from "next/image";
 import Testimonials from "../components/Testimonials";
+import Link from "next/link";
 
 const Entrepreneur = (image, name, company, description) => {
   return (
@@ -10,9 +11,9 @@ const Entrepreneur = (image, name, company, description) => {
       <WhiteNavbar />
       <div>
         <div className=" flex items-center justify-center lg:hidden">
-          <button className="text-white bg-gray-600 px-10 py-1 rounded-2xl text-sm  ">
+          <Link href="/" className="text-white bg-gray-600 px-10 py-1 rounded-2xl text-sm  ">
             Business
-          </button>
+          </Link>
           <button className="text-black  bg-white px-5 pl-5 py-1 rounded-2xl text-sm -ml-[35px] ">
             Entrepreneur
           </button>

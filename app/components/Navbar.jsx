@@ -21,7 +21,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="flex bg-black items-center justify-around max-w-screen mx-auto h-[10vh]">
+      <nav className="flex bg-black items-center justify-around  h-[10vh]">
         <div className=" ">
           <Image src="/images/gladesvg.png" width={300} height={300} alt='' />
         </div>
@@ -64,11 +64,11 @@ const Navbar = () => {
         <div
           className={
             !nav
-              ? `fixed left-0 top-0 w-[100%] h-screen border-r border-r-gray-900 bg-gray-100 ease-in-out duration-700`
+              ? `absolute left-0 top-0 w-[100%] h-screen border-r border-r-gray-900 bg-gray-100 ease-in-out duration-700`
               : `fixed left-[-100%] `
           }
         >
-          <div className="bg-black h-[10vh] flex items-center ">
+          <div className="bg-black h-[10vh] flex items-center px-4">
             <Image src="/images/gladesvg.png" width={200} height={200} alt='' />
           </div>
           <ul className="  p-4">

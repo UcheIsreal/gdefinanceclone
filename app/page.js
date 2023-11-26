@@ -3,20 +3,23 @@ import React from "react";
 import Image from "next/image";
 import Testimonials from "./components/Testimonials";
 import Navbar from "./components/Navbar";
+import Link from "next/link";
+import Entrepreneur from "./Entrepreneur/page";
+
 
 const Business = (image, name, company, description) => {
   return (
     <>
       <Navbar />
-      <div className="max-w-[100vw] mx-auto bg-black">
+      <div className=" bg-black ">
         <div className="py-4 lg:py-0">
-          <div className=" flex items-center justify-center lg:hidden">
-            <button className="text-white bg-gray-600 px-16 py-1 rounded-2xl text-sm  ">
+          <div className=" flex items-center  justify-center lg:hidden">
+            <Link href="/" className="text-white bg-gray-600 px-16 py-1 rounded-2xl text-sm  ">
               Business
-            </button>
-            <button className="text-black  bg-white px-10 pl-5 py-1 rounded-2xl text-sm -ml-[35px] ">
+            </Link>
+            <Link href="/Entrepreneur" className="text-black  bg-white px-10 pl-5 py-1 rounded-2xl text-sm -ml-[35px] ">
               Entrepreneur
-            </button>
+            </Link>
           </div>
         </div>
         <div className="md:flex items-center hidden justify-between overflow-hidden">
@@ -40,7 +43,7 @@ const Business = (image, name, company, description) => {
               </button>
             </div>
           </div>
-          <div className="relative -mr-16  -mt-16">
+          <div className="relative md:-mr-16 -mt-16">
             <Image
               src="/images/gladeheroimage.png"
               width={750}
@@ -48,7 +51,7 @@ const Business = (image, name, company, description) => {
               alt=""
             />
             <Image
-              className="absolute -right-8  top-1/4 "
+              className="absolute md:-right-8 hidden md:block md:top-1/4 "
               src="/images/gladephonehero.png"
               width={350}
               height={400}
