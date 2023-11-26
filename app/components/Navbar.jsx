@@ -64,7 +64,7 @@ const Navbar = () => {
         <div
           className={
             !nav
-              ? `fixed left-0 top-0 w-[100%] h-[80vh] border-r border-r-gray-900 bg-gray-100 ease-in-out duration-700`
+              ? `fixed left-0 top-0 w-[100%] h-screen border-r border-r-gray-900 bg-gray-100 ease-in-out duration-700`
               : `fixed left-[-100%] `
           }
         >
@@ -86,9 +86,12 @@ const Navbar = () => {
               <AiOutlineMenu className="text-white " size={20} />
             )}
           </div>
-          <div className="h-screen flex items-center justify-center ">
+          <div className=" flex flex-col items-center gap-3 justify-center mt-60">
             <button className=" px-36 py-3 text-purple-700 bg-purple-200">
               Login
+            </button>
+            <button className=" px-[122px] py-3 text-white bg-blue-700">
+              Get Started
             </button>
           </div>
         </div>
