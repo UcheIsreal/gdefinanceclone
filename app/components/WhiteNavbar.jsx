@@ -18,7 +18,7 @@ const WhiteNavbar = () => {
   return (
     <>
       <nav className="flex bg-[#EEF4FF] items-center justify-around max-w-screen mx-auto h-[10vh]">
-        <div className=" ">
+        <div className="mt-4">
           <Image src="/images/gladelogoblue.png" width={300} height={300} alt="" />
         </div> 
 

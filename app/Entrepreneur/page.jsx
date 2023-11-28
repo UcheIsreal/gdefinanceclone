@@ -9,15 +9,15 @@ const Entrepreneur = (image, name, company, description) => {
   return (
     <>
       <WhiteNavbar />
-      <div>
+      <div className="bg-[#EEF4FF] pt-8">
         <div className=" flex items-center justify-center lg:hidden">
           <Link
             href="/"
-            className="text-white bg-gray-600 px-10 py-1 rounded-2xl text-sm  "
+            className="text-white bg-gray-600 px-10 pr-16 py-2 rounded-full text-lg  "
           >
             Business
           </Link>
-          <button className="text-black  bg-white px-5 pl-5 py-1 rounded-2xl text-sm -ml-[35px] ">
+          <button className="text-black  bg-white px-16 pl-12 py-2 rounded-full text-lg -ml-[35px] ">
             Entrepreneur
           </button>
         </div>
@@ -418,21 +418,21 @@ const Entrepreneur = (image, name, company, description) => {
             }
           />
           <div className="hidden md:flex">
-          <Testimonials
-            image={
-              <Image
-                src="/images/testimonial-2.svg"
-                width={70}
-                height={70}
-                alt=""
-              />
-            }
-            name={"AbdulHameed Yunusa"}
-            company={"Digiverz"}
-            description={
-              "“My favorite things about Gladefinance have to be the fact that there are no pesky hidden charges, it takes about 10 minutes to get a business account, and the customer service is lightning fast! You don’t know how much you need Gladefinance until you use the services.”"
-            }
-          />
+            <Testimonials
+              image={
+                <Image
+                  src="/images/testimonial-2.svg"
+                  width={70}
+                  height={70}
+                  alt=""
+                />
+              }
+              name={"AbdulHameed Yunusa"}
+              company={"Digiverz"}
+              description={
+                "“My favorite things about Gladefinance have to be the fact that there are no pesky hidden charges, it takes about 10 minutes to get a business account, and the customer service is lightning fast! You don’t know how much you need Gladefinance until you use the services.”"
+              }
+            />
           </div>
         </div>
       </div>

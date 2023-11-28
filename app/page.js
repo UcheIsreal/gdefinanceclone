@@ -11,13 +11,19 @@ const Business = (image, name, company, description) => {
   return (
     <>
       <Navbar />
-      <div className=" bg-black ">
+      <div className=" bg-black pt-4">
         <div className="py-4 lg:py-0">
           <div className=" flex items-center  justify-center lg:hidden">
-            <Link href="/" className="text-white bg-gray-600 px-16 py-1 rounded-2xl text-sm  ">
+            <Link
+              href="/"
+              className="text-white bg-gray-600 px-10 pr-16 py-2 rounded-full text-lg  "
+            >
               Business
             </Link>
-            <Link href="/Entrepreneur" className="text-black  bg-white px-10 pl-5 py-1 rounded-2xl text-sm -ml-[35px] ">
+            <Link
+              href="/Entrepreneur"
+              className="text-black  bg-white px-16 pl-12 py-2 rounded-full text-lg -ml-[35px] "
+            >
               Entrepreneur
             </Link>
           </div>
@@ -57,7 +63,7 @@ const Business = (image, name, company, description) => {
               height={400}
               alt=""
             />
-          
+
             <Image
               className="absolute top-1/2 "
               src="/images/gladecardimage.svg"
@@ -158,12 +164,7 @@ const Business = (image, name, company, description) => {
         {/* Transfer and FX  */}
         <div className="bg-white mt-20 mb-10 md:flex hidden items-center justify-between w-[80vw] rounded-3xl py-20 px-20 mx-32">
           <div>
-            <Image
-              src="/images/send.svg"
-              width={500}
-              height={500}
-              alt=""
-            />
+            <Image src="/images/send.svg" width={500} height={500} alt="" />
           </div>
           <div className="text-black col-span-2 ">
             <h2 className="text-4xl">Transfers and FX</h2>
@@ -188,12 +189,7 @@ const Business = (image, name, company, description) => {
             <p className="mt-8 text-center mb-20">Get Started</p>
           </div>
           <div className="mx-10">
-            <Image
-              src="/images/send.svg"
-              width={300}
-              height={300}
-              alt=""
-            />
+            <Image src="/images/send.svg" width={300} height={300} alt="" />
           </div>
         </div>
         {/* End of transfer and FX  */}
@@ -404,12 +400,7 @@ const Business = (image, name, company, description) => {
         {/* Improve your cash flow  */}
         <div className="md:grid hidden  grid-cols-2 gap-4 mt-4 bg-[#2C6DEA] justify-between w-[80vw] rounded-3xl py-10 pb-2 px-20 mx-32">
           <div className="">
-            <Image
-              src="/images/invoice.svg"
-              width={400}
-              height={300}
-              alt=""
-            />
+            <Image src="/images/invoice.svg" width={400} height={300} alt="" />
           </div>
           <div className="mt-8">
             <h2 className="text-white  text-[45px] leading-[45px] font-bold font-serif">
@@ -448,12 +439,7 @@ const Business = (image, name, company, description) => {
             </p>
           </div>
           <div className="px-10">
-            <Image
-              src="/images/invoice.svg"
-              width={400}
-              height={300}
-              alt=""
-            />
+            <Image src="/images/invoice.svg" width={400} height={300} alt="" />
           </div>
         </div>
         {/* End of Improve your cash flow  */}
