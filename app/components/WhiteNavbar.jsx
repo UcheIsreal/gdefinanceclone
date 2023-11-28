@@ -49,7 +49,7 @@ const WhiteNavbar = () => {
           {!nav ? (
             <AiOutlineClose className="text-white" size={20} />
           ) : (
-            <AiOutlineMenu className="text-white" size={20} />
+            <AiOutlineMenu className="text-black" size={20} />
           )}
         </div>
 

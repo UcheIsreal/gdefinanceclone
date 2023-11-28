@@ -396,7 +396,7 @@ const Entrepreneur = (image, name, company, description) => {
           <h2 className="text-4xl tracking-tight text-center font-serif">
             Don&apos;t take our word for <br /> it
           </h2>
-          <p className="font-sans mt-3">
+          <p className="font-sans text-center px-10 mt-3">
             Read what other business owners say about our product
           </p>
         </div>
